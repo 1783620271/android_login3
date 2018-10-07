@@ -46,10 +46,10 @@
             />
 
         <Button
-            android:onClick="click"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-           android:layout_marginLeft="600dp"
+            android:layout_marginLeft="600dp"
+            android:onClick="click"
             android:text="登录"
             tools:ignore="OnClick" />
     </RelativeLayout>
