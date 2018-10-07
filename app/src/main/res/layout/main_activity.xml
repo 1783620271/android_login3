@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/et_nameing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用户登录"
+        android:textSize="40dp"
+        android:layout_marginLeft="300dp"
+        />
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="251dp"
+        android:hint="请输入用户名" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="251dp"
+        android:hint="请输入密码"
+        android:password="true"
+        tools:ignore="Deprecated" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:id="@+id/ec_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:text="记住密码"
+
+            />
+
+        <Button
+            android:onClick="click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginLeft="600dp"
+            android:text="登录"
+            tools:ignore="OnClick" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+
+
